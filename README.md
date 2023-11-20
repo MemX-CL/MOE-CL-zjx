@@ -24,6 +24,7 @@ python get_replay_for_moe.py
 2 incremental pretrain stage
 moe-stage2.py: moe-stage2, vermilion_model, 2_clusters, ACLForLM_1103,replay_data ->1115_vermilion_model_satge2.pth
 only_for_bert.py: bert-stage2,bert_stage1,ACLForLM_1103 - > 1115-only-bert-formoe-stage2.pth
+moe-router-stage2.py: moe-router-stage2, vermilion_model, 2_clusters, ACLForLM_1103,replay_data ->1115_vermilion_model_satge2.pth
 
 
 CUDA_VISIBLE_DEVICES=1 nohup python -u moe-stage2.py > 1115_vermilion_model_satge2.log
